@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.general-container {
+    background-color: rgba(32, 32, 32, 0.469);
+    width: 90vw;
+    margin: auto;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.container {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+.images {
+    display: flex;
+    gap: .3rem;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 1rem;
+}
+
+img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.retouching {
+    text-align: center;
+    background-color: aliceblue;
+    height: 20rem;
+    width: 20rem;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+}
+
+.revamp {
+    text-align: center;
+    background-color: aliceblue;
+    height: 20rem;
+    width: 20rem;
+    border: none;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+}
+
+.stitches {
+    text-align: center;
+    padding: 2rem 0;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgb(179, 191, 201);
+}
+
+.flex-stitches {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.all-back {
+    background-color: aliceblue;
+    padding: 2rem;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-up {
+    background-color: aliceblue;
+    padding: 2rem;
+    width: 35%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:1292px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .general-container {
+        width: 90vw;
+        font-size: 1.5rem;
+        padding: 0;
+        border: none;
+    }
+    .container {
+        flex-direction: column;
+        gap: .2rem;
+        width: 100%;
+        margin: auto;
+    }
+    img {
+        width: 80%;
+        height: 100%;
+    }
+    .images {
+        width: 100%;
+    }
+}
