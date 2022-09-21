@@ -70,7 +70,8 @@ img {
     margin: auto;
 }
 
-.stitches {
+
+/* .stitches {
     text-align: center;
     padding: 2rem 0;
     width: 90vw;
@@ -79,7 +80,7 @@ img {
     flex-direction: column;
     gap: 2rem;
     background-color: rgb(179, 191, 201);
-}
+} */
 
 .flex-stitches {
     display: flex;
